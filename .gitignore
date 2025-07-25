@@ -39,3 +39,39 @@
 
 # debug information files
 *.dwo
+
+# Ignore Arduino IDE files
+*.ino.cpp
+*.cpp.o
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+*.d
+*.dep
+*.sdf
+*.bak
+*.tmp
+
+# Ignore Arduino IDE metadata
+*.code-workspace
+*.vscode/
+*.DS_Store
+*.sketches/
+
+# Mac and Windows junk
+.DS_Store
+Thumbs.db
+
+# Ignore build output folders
+build/
+.pio/
+.pioenvs/
+.pio/libdeps/
+
+# Ignore arduino-cli build output
+arduino.build/
+
+# Ignore library manager temporary files
+__MACOSX/
